@@ -1,0 +1,36 @@
+{
+  "ctor": {
+    "kwparams": {},
+    "params": []
+  },
+  "methods": {
+    "get_last_verification": {
+      "kwparams": {},
+      "params": [],
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_verification_count": {
+      "kwparams": {},
+      "params": [],
+      "readonly": true,
+      "ret": "int"
+    },
+    "verify_release": {
+      "kwparams": {},
+      "params": [
+        [
+          "repository",
+          "string"
+        ],
+        [
+          "tag",
+          "string"
+        ]
+      ],
+      "payable": false,
+      "readonly": false,
+      "ret": "dict"
+    }
+  }
+}

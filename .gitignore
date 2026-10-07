@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Test and type-checker caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+
+# GenLayer local runtime output
+artifacts/
+gltest.config.yaml
